@@ -14,7 +14,25 @@ win.bgcolor("green")
 win.setup(width=600, height=600)
 win.tracer(0)   #turns off screen updates
 
+# Making a border for the screen
+border = turtle.Turtle()
+border.width(5)
+border.speed(0)
+border.penup()
+border.goto(-300, -310)
+border.pendown()
+border.forward(610)
+border.left(90)
+border.forward(620)
+border.left(90)
+border.forward(620)
+border.left(90)
+border.forward(620)
+border.left(90)
+border.forward(50)
+border.hideturtle()
 
+    
 #Snake head
 head = turtle.Turtle()
 head.speed(0)   #animation speed
